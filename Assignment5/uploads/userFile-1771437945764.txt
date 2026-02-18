@@ -1,0 +1,45 @@
+para la presentacion e WEB ecommerce:
+
+Slides:
+- Fake Ecommerce Business name (and maybe a little description)
+BAMORA is the fake e-commerce brand I created that focuses on sustainable, stylish everyday products that sell items like bamboo reusable tote bags, biodegradable packaging, and organic cotton basics, all aimed at making eco-friendly choices easy.
+
+
+- Website purpose
+The purpose of the website is to introduce BAMORA as an accessible and friendly shopping space. I wanted to make sustainability feel easy andern
+
+
+- Target audience 
+Our target audience is mainly eco-conscious shoppers, especially young adults or students looking for affordable ways to live more sustainably.
+
+- What WP template did i use and why
+I used the Botiga WordPress theme because it’s designed specifically for e-commerce and lets me display products clearly without overwhelming the user.
+
+- AI Tools used during the projects 
+For the AI tools, I mainly used ChatGPT to help me generate text content like product descriptions, homepage copy, metadata, and branding ideas. I also used Gemini and Canva’s AI image features to create graphics
+
+- The landing pag made (and explain how it supports my FEB)
+I originally built a landing page for BAMORA as the main entry point for potential customers, esigned to grab attention with a call to action button...
+However, the ink returns a 404 error; apparently the page was lost or removed. 
+This helped me learn something important about web-development practice in WordPress, pages don’t always stay visible u must handle pages very carefully. If I were to continue this project, I’d ensure backup or double-check menu so the landing page remains there.
+
+- FEB site and blog posts (mention any issues you had and how you overcame them, SEO strategies used) 
+**** read th eslide
+
+- Usability test results and any changes that you made from it
+**** read the slides
+
+- Email campaign strategy (explain how the two campaigns support your FEB)
+I created two email campaign pages to support FEB. Each page was designed with clear messaging and strong calls-to-action to encourage engagement. I made sure the visuals and overall style were consistent with the vibe of the site
+
+- What future changes would you like to do 
+Overall, For future changes, I want to focus on picking better images that have a stronger visual impact. I also plan to implement regular backups to avoid losing work, and I’ll make sure to double-check consistency across all pages to maintain a professional look.
+
+
+
+
+
+
+***********************************
+
+what are the deliverables? the presentation or the final web page?
