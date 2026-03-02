@@ -1,1 +1,41 @@
+<!--
+Valentina Biviano
+WEB 250 - Module 6
+3/1/2026
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lesson 6 - Tsunami Data</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Upload Tsunami CSV</h1>
 
+  <form action="/upload" method="POST" enctype="multipart/form-data">
+    <input type="file" name="csvFile" accept=".csv" required>
+    <button type="submit">Upload File</button>
+  </form>
+
+  <% if (data) { %>
+    <h2>Sorted Tsunami Data</h2>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Tsunami</th>
+        <th>Continent</th>
+        <th>Country</th>
+      </tr>
+
+      <% data.forEach(row => { %>
+        <tr class="<%= row[2].toLowerCase().replace(' ', '-') %>">
+          <td><%= row[0] %></td>
+          <td><%= row[1] %></td>
+          <td><%= row[2] %></td>
+          <td><%= row[3] %></td>
+        </tr>
+      <% }) %>
+    </table>
+  <% } %>
+</body>
+</html>
