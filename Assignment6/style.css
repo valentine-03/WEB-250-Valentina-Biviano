@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+/* continent colors */
+.asia { background-color: #cce5ff; }
+.europe { background-color: #d4edda; }
+.africa { background-color: #fff3cd; }
+.north-america { background-color: #f8d7da; }
+.south-america { background-color: #ffe5b4; }
+.australia { background-color: #e2d6f3; }
