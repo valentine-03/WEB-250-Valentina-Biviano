@@ -1,0 +1,42 @@
+body{
+    font-family: Arial;
+    margin:40px;
+}
+
+nav a{
+    margin-right:20px;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top:20px;
+}
+
+td,th{
+    border:1px solid black;
+    padding:8px;
+}
+
+.cat0{
+    background-color:#b3e5fc;
+}
+
+.cat1{
+    background-color:#fff176;
+}
+
+.cat2{
+    background-color:#ffd54f;
+}
+
+.cat3{
+    background-color:#ffb74d;
+}
+
+.cat4{
+    background-color:#ff8a65;
+}
+
+.cat5{
+    background-color:#e57373;
+}
