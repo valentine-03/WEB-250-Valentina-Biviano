@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lesson 7 - Storm Data</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<h1>Hurricane Storm Analyzer</h1>
+
+<form action="/lesson7" method="POST" enctype="multipart/form-data">
+    <input type="file" name="stormfile" required>
+    <button type="submit">Upload CSV</button>
+</form>
+
+<% if (storms) { %>
+
+<table>
+
+<tr>
+<th>Date</th>
+<th>Name</th>
+<th>Wind km/h</th>
+<th>Wind mph</th>
+<th>Category</th>
+</tr>
+
+<% storms.forEach(storm => { %>
+
+<tr class="cat<%=storm.category%>">
+
+<td><%= storm.date %></td>
+<td><%= storm.name %></td>
+<td><%= storm.kmh %></td>
+<td><%= storm.mph %></td>
+<td>
+<% if(storm.category == 0){ %>
+Tropical Storm
+<% } else { %>
+Category <%= storm.category %>
+<% } %>
+</td>
+
+</tr>
+
+<% }) %>
+
+</table>
+
+<% } %>
+
+</body>
+</html>
