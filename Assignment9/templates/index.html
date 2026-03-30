@@ -30,7 +30,6 @@ WEB 2050 Lab 9
     <h3>Place Order</h3>
     <form action="/add_order" method="POST">
 
-        <!-- Dropdown for customers -->
         <select class="form-control mb-2" name="customer_id" required>
             <option value="">Select Customer</option>
             {% for customer in customers %}
