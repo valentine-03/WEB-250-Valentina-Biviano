@@ -1,0 +1,638 @@
+{
+  "id": "313aa639-59d5-4d89-a85b-52fe25e7827c",
+  "version": "2.0",
+  "name": "CookBookie_project",
+  "url": "https://web235w01u01.hcoding.net",
+  "tests": [{
+    "id": "bd6c2888-1a06-4616-a3ff-28d225d1f5d4",
+    "name": "CookBookie_ProjectRecord",
+    "commands": [{
+      "id": "b69171b7-582d-40aa-980e-9ce1431c4b77",
+      "comment": "",
+      "command": "open",
+      "target": "/WEBSITE_CookBookie/Update2/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60b46401-4f2b-432c-9459-8ec4ae966f8b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f6f3516-7f24-4e44-986a-1f306091a2d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recipe-grid:nth-child(5) > .card:nth-child(1) > .img-placeholder",
+      "targets": [
+        ["css=.recipe-grid:nth-child(5) > .card:nth-child(1) > .img-placeholder", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/div[3]/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bda41ca9-a3df-4c45-916c-d79a158cd2fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-back-secondary",
+      "targets": [
+        ["css=.btn-back-secondary", "css:finder"],
+        ["xpath=(//a[contains(@href, 'recipes.html')])[3]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87e6065c-dff3-4140-acf1-f60d86d82c15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-btn:nth-child(2)",
+      "targets": [
+        ["css=.filter-btn:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Breakfast')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d77e037f-fc56-4873-bd87-7bee1457d132",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-btn:nth-child(3)",
+      "targets": [
+        ["css=.filter-btn:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lunch')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13b0934f-4142-4840-b5ac-95e8ed1b5182",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-btn:nth-child(4)",
+      "targets": [
+        ["css=.filter-btn:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/div[2]/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,'Dinner')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c154cfc7-76bd-4b50-891f-1362bfeeceb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-btn:nth-child(5)",
+      "targets": [
+        ["css=.filter-btn:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/div[2]/button[5]", "xpath:idRelative"],
+        ["xpath=//button[5]", "xpath:position"],
+        ["xpath=//button[contains(.,'Dessert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce8338f2-d146-40a0-8c4e-a51a88bbc9e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(7) > a",
+      "targets": [
+        ["css=li:nth-child(7) > a", "css:finder"],
+        ["xpath=//aside[@id='main-nav']/nav/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'settings.html')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db5c465e-c49c-480b-bc4f-36ef69ccef92",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) > a",
+      "targets": [
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//aside[@id='main-nav']/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'tips.html')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f25bd9ab-6753-4b36-af57-998c0d1226c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) > a",
+      "targets": [
+        ["css=li:nth-child(4) > a", "css:finder"],
+        ["xpath=//aside[@id='main-nav']/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'nutrition.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14fbf1c0-b696-465e-bb59-0bb24baaf791",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item:nth-child(1) > .accordion-header",
+      "targets": [
+        ["css=.accordion-item:nth-child(1) > .accordion-header", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8e8c0d6-a5ad-498d-b953-f0a8d2ac27a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item > .active",
+      "targets": [
+        ["css=.accordion-item > .active", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4417191a-f996-49b7-b015-a2479231bd21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item:nth-child(2) > .accordion-header",
+      "targets": [
+        ["css=.accordion-item:nth-child(2) > .accordion-header", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2df59a29-ac99-44fe-8ab4-32ce65a08be0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item > .active",
+      "targets": [
+        ["css=.accordion-item > .active", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf408d93-933c-4a02-8520-329675b004ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item:nth-child(3) > .accordion-header",
+      "targets": [
+        ["css=.accordion-item:nth-child(3) > .accordion-header", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e911b14-f0cd-401d-b9c7-1687029cb339",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion-item > .active",
+      "targets": [
+        ["css=.accordion-item > .active", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e996c13-79d6-4598-9a36-72dd76b38ee6",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > a",
+      "targets": [
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//aside[@id='main-nav']/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'add.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4f2d8e7-1576-447c-ba40-8aaeb50586b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=recipe-title",
+      "targets": [
+        ["id=recipe-title", "id"],
+        ["css=#recipe-title", "css:finder"],
+        ["xpath=//input[@id='recipe-title']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/input", "xpath:idRelative"],
+        ["xpath=//section/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c644243b-05ac-4352-ba74-3cb87e71c8b1",
+      "comment": "",
+      "command": "type",
+      "target": "id=recipe-title",
+      "targets": [
+        ["id=recipe-title", "id"],
+        ["css=#recipe-title", "css:finder"],
+        ["xpath=//input[@id='recipe-title']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/input", "xpath:idRelative"],
+        ["xpath=//section/div/input", "xpath:position"]
+      ],
+      "value": "A"
+    }, {
+      "id": "144b7d1f-460a-42ae-a472-88d35b9fad2b",
+      "comment": "",
+      "command": "click",
+      "target": "id=recipe-prep",
+      "targets": [
+        ["id=recipe-prep", "id"],
+        ["css=#recipe-prep", "css:finder"],
+        ["xpath=//input[@id='recipe-prep']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c1b8c15-4716-401c-ae85-68c6dcbcef30",
+      "comment": "",
+      "command": "type",
+      "target": "id=recipe-prep",
+      "targets": [
+        ["id=recipe-prep", "id"],
+        ["css=#recipe-prep", "css:finder"],
+        ["xpath=//input[@id='recipe-prep']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "752818f9-166e-416d-9821-18ad72ee6dd3",
+      "comment": "",
+      "command": "click",
+      "target": "id=recipe-prep",
+      "targets": [
+        ["id=recipe-prep", "id"],
+        ["css=#recipe-prep", "css:finder"],
+        ["xpath=//input[@id='recipe-prep']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de666f76-5fc6-4d2c-9611-add843b9abd0",
+      "comment": "",
+      "command": "type",
+      "target": "id=recipe-prep",
+      "targets": [
+        ["id=recipe-prep", "id"],
+        ["css=#recipe-prep", "css:finder"],
+        ["xpath=//input[@id='recipe-prep']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "d43c75e0-9bdf-4774-a1d5-4c7db630c644",
+      "comment": "",
+      "command": "click",
+      "target": "id=recipe-prep",
+      "targets": [
+        ["id=recipe-prep", "id"],
+        ["css=#recipe-prep", "css:finder"],
+        ["xpath=//input[@id='recipe-prep']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "514eb67c-999f-49b6-82b2-07a225c42377",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=recipe-prep",
+      "targets": [
+        ["id=recipe-prep", "id"],
+        ["css=#recipe-prep", "css:finder"],
+        ["xpath=//input[@id='recipe-prep']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6431b03e-e211-4149-8877-e51b6c25299e",
+      "comment": "",
+      "command": "type",
+      "target": "id=recipe-prep",
+      "targets": [
+        ["id=recipe-prep", "id"],
+        ["css=#recipe-prep", "css:finder"],
+        ["xpath=//input[@id='recipe-prep']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "a157181a-21aa-4893-8d2c-952b9d8f3c03",
+      "comment": "",
+      "command": "click",
+      "target": "id=recipe-prep",
+      "targets": [
+        ["id=recipe-prep", "id"],
+        ["css=#recipe-prep", "css:finder"],
+        ["xpath=//input[@id='recipe-prep']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b6dd410-f9cd-4672-8605-a605d1bdeb5e",
+      "comment": "",
+      "command": "click",
+      "target": "id=recipe-cook",
+      "targets": [
+        ["id=recipe-cook", "id"],
+        ["css=#recipe-cook", "css:finder"],
+        ["xpath=//input[@id='recipe-cook']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "094bfa20-18e6-4515-9487-c0f02384dc91",
+      "comment": "",
+      "command": "click",
+      "target": "id=recipe-ingredients",
+      "targets": [
+        ["id=recipe-ingredients", "id"],
+        ["css=#recipe-ingredients", "css:finder"],
+        ["xpath=//textarea[@id='recipe-ingredients']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0cb1411-efef-48b4-ad90-121cb920faf6",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=recipe-cook",
+      "targets": [
+        ["id=recipe-cook", "id"],
+        ["css=#recipe-cook", "css:finder"],
+        ["xpath=//input[@id='recipe-cook']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "-20,32.399993896484375"
+    }, {
+      "id": "a36bf931-d769-4ea4-aad3-0c9da414b9cd",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=recipe-cook",
+      "targets": [
+        ["id=recipe-cook", "id"],
+        ["css=#recipe-cook", "css:finder"],
+        ["xpath=//input[@id='recipe-cook']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "-20,32.399993896484375"
+    }, {
+      "id": "17b8cf62-21d9-4466-9ae6-0db938da03a6",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=recipe-cook",
+      "targets": [
+        ["id=recipe-cook", "id"],
+        ["css=#recipe-cook", "css:finder"],
+        ["xpath=//input[@id='recipe-cook']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "-20,32.399993896484375"
+    }, {
+      "id": "655265aa-88d1-450d-9a64-5464bb7ee0ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=recipe-cook",
+      "targets": [
+        ["id=recipe-cook", "id"],
+        ["css=#recipe-cook", "css:finder"],
+        ["xpath=//input[@id='recipe-cook']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a15c46e9-bd20-47be-a271-06a457bf6b8d",
+      "comment": "",
+      "command": "type",
+      "target": "id=recipe-cook",
+      "targets": [
+        ["id=recipe-cook", "id"],
+        ["css=#recipe-cook", "css:finder"],
+        ["xpath=//input[@id='recipe-cook']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "20"
+    }, {
+      "id": "2c7ae37f-fe3c-4e66-bc98-382500e779c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=recipe-ingredients",
+      "targets": [
+        ["id=recipe-ingredients", "id"],
+        ["css=#recipe-ingredients", "css:finder"],
+        ["xpath=//textarea[@id='recipe-ingredients']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89a0b775-c996-442c-94a9-a73089efa951",
+      "comment": "",
+      "command": "type",
+      "target": "id=recipe-ingredients",
+      "targets": [
+        ["id=recipe-ingredients", "id"],
+        ["css=#recipe-ingredients", "css:finder"],
+        ["xpath=//textarea[@id='recipe-ingredients']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "A\\nB\\nC"
+    }, {
+      "id": "eb4d6b96-7151-4786-9161-c7952bd8bbda",
+      "comment": "",
+      "command": "click",
+      "target": "id=recipe-instructions",
+      "targets": [
+        ["id=recipe-instructions", "id"],
+        ["css=#recipe-instructions", "css:finder"],
+        ["xpath=//textarea[@id='recipe-instructions']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/textarea[2]", "xpath:idRelative"],
+        ["xpath=//textarea[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "896a1b77-2a18-435a-af64-39a9a819e4f7",
+      "comment": "",
+      "command": "type",
+      "target": "id=recipe-instructions",
+      "targets": [
+        ["id=recipe-instructions", "id"],
+        ["css=#recipe-instructions", "css:finder"],
+        ["xpath=//textarea[@id='recipe-instructions']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/textarea[2]", "xpath:idRelative"],
+        ["xpath=//textarea[2]", "xpath:position"]
+      ],
+      "value": "A\\nB\\nC"
+    }, {
+      "id": "36185594-9ad1-4669-ad19-468a97269107",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-submit",
+      "targets": [
+        ["css=.btn-submit", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/section/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Recipe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a60e1d1-ee77-4172-ba81-263705616579",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-btn:nth-child(3)",
+      "targets": [
+        ["css=.filter-btn:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Lunch')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5005a4a-0c13-48dd-bba6-fd8dba3e3054",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(4) > .recipe-card-media",
+      "targets": [
+        ["css=.card:nth-child(4) > .recipe-card-media", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/div[3]/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a28e1d66-ee3f-483d-a785-f440f3f7925d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-box",
+      "targets": [
+        ["css=.modal-box", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c062a4da-66ac-4c20-89a6-d3bdf224acd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-box",
+      "targets": [
+        ["css=.modal-box", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ac04c3e-b176-496a-bb32-1ecef1e6c5d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-close > .material-symbols-rounded",
+      "targets": [
+        ["css=.modal-close > .material-symbols-rounded", "css:finder"],
+        ["xpath=//div[@id='app']/main/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//main/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9039a4e0-4d43-4326-8787-8e87b3ee98df",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e675ddc-fc67-4838-a2a0-4cd2291f5fcf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-delete:nth-child(1) > .material-symbols-rounded",
+      "targets": [
+        ["css=.btn-delete:nth-child(1) > .material-symbols-rounded", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/div[3]/div[4]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d908b45d-95d1-416e-b2c7-0e688823a1b8",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "Delete \"A\"?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89fe9c54-8479-49d6-80e6-f95f2fdcb977",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b6a92d6-638d-4c87-84bd-5024b9185c01",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2d32767-0537-43ba-ae36-efe748c55962",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(3) .btn-delete",
+      "targets": [
+        ["css=.card:nth-child(3) .btn-delete", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/div[3]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53f1d947-fe1a-4845-b94d-57cbf9fbde7e",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "Delete \"Caesar Salad\"?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6ac20aa-5ab6-4ce3-8567-0917682afd41",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c79f5447-6943-4b6f-90c3-e44153f13bc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > a",
+      "targets": [
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//aside[@id='main-nav']/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'index.html')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "44b43c1e-4aed-47a3-a57c-5448cf4ac3fe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bd6c2888-1a06-4616-a3ff-28d225d1f5d4"]
+  }],
+  "urls": ["https://web235w01u01.hcoding.net/"],
+  "plugins": []
+}
